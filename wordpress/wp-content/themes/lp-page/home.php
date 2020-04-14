@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<div class="mainimg">
-		<img src="img/mainimg.jpg" alt="メイン画像">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/mainimg.jpg" alt="メイン画像">
 	</div>
 
 	<main>
@@ -18,9 +18,7 @@
 						</ul>
 					</div>
 				</div>
-
 				<?php get_sidebar(); ?>
-
 			</div>
 		</div>
 	</main>
